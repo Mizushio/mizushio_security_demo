@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-04-08T10:41:03.876Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="q8fDI4rsNniunIW2olmg" version="14.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-08T10:44:26.509Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="BJ7MlKworKsLf9fhiCP2" version="14.5.7" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1240" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1240" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -95,6 +95,35 @@
         </mxCell>
         <mxCell id="1M3tzy3CsYqNZGZli--J-37" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="470" y="180" width="30" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="S5-L_Ca8kKuzGuimtp_7" name="Page-2">
+    <mxGraphModel dx="886" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="IGoSyxilU5dJF9_WOYWy-0" />
+        <mxCell id="IGoSyxilU5dJF9_WOYWy-1" parent="IGoSyxilU5dJF9_WOYWy-0" />
+        <mxCell id="IGoSyxilU5dJF9_WOYWy-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IGoSyxilU5dJF9_WOYWy-1" source="IGoSyxilU5dJF9_WOYWy-2" target="IGoSyxilU5dJF9_WOYWy-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGoSyxilU5dJF9_WOYWy-2" value="按下登出按钮" style="whiteSpace=wrap;html=1;" vertex="1" parent="IGoSyxilU5dJF9_WOYWy-1">
+          <mxGeometry x="130" y="80" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IGoSyxilU5dJF9_WOYWy-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IGoSyxilU5dJF9_WOYWy-1" source="IGoSyxilU5dJF9_WOYWy-3" target="IGoSyxilU5dJF9_WOYWy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGoSyxilU5dJF9_WOYWy-3" value="向服务器发送登出请求（携带cookie）" style="whiteSpace=wrap;html=1;" vertex="1" parent="IGoSyxilU5dJF9_WOYWy-1">
+          <mxGeometry x="130" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IGoSyxilU5dJF9_WOYWy-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IGoSyxilU5dJF9_WOYWy-1" source="IGoSyxilU5dJF9_WOYWy-5" target="IGoSyxilU5dJF9_WOYWy-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IGoSyxilU5dJF9_WOYWy-5" value="服务器释放该session" style="whiteSpace=wrap;html=1;" vertex="1" parent="IGoSyxilU5dJF9_WOYWy-1">
+          <mxGeometry x="130" y="300" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IGoSyxilU5dJF9_WOYWy-7" value="返回登出成功" style="whiteSpace=wrap;html=1;" vertex="1" parent="IGoSyxilU5dJF9_WOYWy-1">
+          <mxGeometry x="130" y="410" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
