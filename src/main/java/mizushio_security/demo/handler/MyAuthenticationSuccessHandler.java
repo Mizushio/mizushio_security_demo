@@ -17,7 +17,7 @@ public class MyAuthenticationSuccessHandler implements AuthenticationSuccessHand
         Set<String> roles= AuthorityUtils.authorityListToSet(authentication.getAuthorities());
         System.out.println(httpServletRequest.getRemoteAddr());
         httpServletResponse.setHeader("Content-Type","application/json;charset=utf-8");
-        httpServletResponse.getWriter().write("登录成功了哟");
+        httpServletResponse.getWriter().write("{'code':200}");
     }
 
 }

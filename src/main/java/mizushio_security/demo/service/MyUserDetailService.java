@@ -18,12 +18,12 @@ public class MyUserDetailService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
 
-        String password=passwordEncoder.encode("123");
+        String password=passwordEncoder.encode("123123");
 
-        if(s.equals("user")){
+        if(s.equals("user123")){
             return  new User(s,password, AuthorityUtils.commaSeparatedStringToAuthorityList("normal"));
         }
-        if (s.equals("admin")){
+        if (s.equals("admin123")){
             return  new User(s,password, AuthorityUtils.commaSeparatedStringToAuthorityList("admin,normal"));
         }
         return null;
